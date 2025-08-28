@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="First Name">First Name</label>
+      <input type="text" class="firstName" /> <br />
+
+      <label for="Middle Name">Middle Name</label>
+      <input type="text" class="middleName" /> <br />
+
+      <label for="Last Name">Last Name</label>
+      <input type="text" class="lastname" /> <br />
+
+      <label for="Email">Email</label>
+      <input type="email" /> <br />
+
+      <label for="password">Password</label>
+      <input type="password" /> <br />
+
+      <label for="Date od Birth">Date of Birth</label>
+      <input type="date" /> <br />
+
+      <label for="Message">Message</label>
+      <textarea name="" id=""></textarea>
+
+      <button type="reset">Reset</button>
+      <button type="submit" class="submit" onclick="submitForm(event)">
+        Submit
+      </button>
+    </form>
+
+    <script>
+      const submitForm = () => {
+        event.preventDefault();
+
+        const first = document.querySelector(".firstName");
+        const middle = document.querySelector(".middleName");
+        const last = document.querySelector(".lastname");
+
+        const firstNameValue = first.value;
+        const middleNameValue = middle.value;
+        const lastNameValue = last.value;
+
+        console.log(firstNameValue);
+        console.log(middleNameValue);
+        console.log(lastNameValue);
+      };
+
+      submitForm();
+    </script>
+  </body>
+</html>
