@@ -56,7 +56,7 @@ const students = [
   },
   {
     id: "12",
-    name: "Kama Chikamso",
+    name: "Kamma Chikamso",
     img: "images/IMG_1541.JPG",
   },
   {
@@ -619,8 +619,8 @@ const students = [
   },
   {
     id: "124",
-    name: "",
-    img: "images/",
+    name: "Kamma Chidubem",
+    img: "images/dubem.jpeg",
   },
   {
     id: "125",
@@ -674,8 +674,8 @@ const students = [
   },
   {
     id: "135",
-    name: "",
-    img: "images/",
+    name: "Kamma Chinonso",
+    img: "images/nonso.jpeg",
   },
   {
     id: "136",
